@@ -99,7 +99,7 @@ class SimpleMediaPlayer(QMainWindow):
                 f"Playing: {media.canonicalUrl().fileName()}"
             )
 
-#add
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = SimpleMediaPlayer()
